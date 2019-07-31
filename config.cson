@@ -1,0 +1,51 @@
+"*":
+  "atom-clock":
+    showClockIcon: true
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "autocomplete-clang"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    packagesWithKeymapsDisabled: [
+      "platformio-ide-terminal"
+    ]
+    projectHome: "/Users/jgehin/"
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "5924bd64-d488-42df-8631-d29e7d8308a9"
+  github: {}
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "tool-bar":
+    visible: false
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
